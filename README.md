@@ -41,23 +41,28 @@ This sheet will add more commands when coming across new arguments whilst using 
 |Enter Key			  |when selected a song, the song will be selected to queue and play|
 
 # DH Commands (Check Hard Drive Space)
-	`df`
-	`df -h`
-	`df -h /`
+	df
+	df -h
+	df -h /
 
 # Git Cloning and Installing
-	`git clone <web-url>`
-	`cd <folder-name>`
-	`sudo make install` or `sudo make clean install` or `./install`
+	git clone <web-url>
+	cd <folder-name>
+	sudo make install or sudo make clean install or ./install
 
 # Copy Commands
-	cp <file1> <file2> [Copies and overwrites content from  <file1> and overwrites <file2>]
+Copies and overwrites content from  <file1> and overwrites <file2>
+	cp <file1> <file2> 
 
 # Grub Theme Ajusting Themes and Text in Grub
-	Directory: /etc/default/grub -- to edit text and directories
+1. To edit text and directories
+	/etc/default/grub 
 
-	/boot/grub/themes -- store themes in this folder
-	grub-mkconfig -o /boot/grub/grub.cfg -- rebuild to apply changes of themes
+2. To store themes in this folder
+	/boot/grub/themes
+	
+3. To rebuild to apply changes of themes	
+	grub-mkconfig -o /boot/grub/grub.cfg
 
 # Keybindings
 	xbindkeys_config
@@ -82,15 +87,24 @@ This sheet will add more commands when coming across new arguments whilst using 
 # Pacman Installing Offline Files (pacman -U)
 	sudo pacman -U <target>
 
-# Pacman Removing Files
-	sudo pacman -R <target>  #Removes the package
-	sudo pacman -Rcns <target> #Removes the package and its dependecies
+# Removing Files using Pacman
+Remove the installed package
+	sudo pacman -R <target>
 
-	pacman -Qdtq #Shows unecassary packages on arch
-	sudo pacman -R $(pacman -Qdtq) #Removes all the unesassary packages
+Removes the installed package and its dependecies
+	sudo pacman -Rcns <target> 
 
-	pacman -Qqen # package list
-	pacman -Qqem # package list AUR
+Shows the unecassary packages on arch
+	pacman -Qdtq 
+
+Removes all the unesassary packages installed on the system
+	sudo pacman -R $(pacman -Qdtq) 
+
+List packages installed with pacman
+	pacman -Qqen
+	
+List packages installed with the AUR package manager
+	pacman -Qqem
 
 # Remove Files Commands
 	rm <filename> -r #Force and Remove Folder and File Recurisively

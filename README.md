@@ -41,9 +41,9 @@ This sheet will add more commands when coming across new arguments whilst using 
 | Enter Key			  |when selected a song, the song will be selected to queue and play|
 
 # DH Commands (Check Hard Drive Space)
-`df`
-`df -h`
-`df -h /`
+- `df`
+- `df -h`
+- `df -h /`
 
 # Git Cloning and Installing
 - `git clone <web-url>`
@@ -86,7 +86,7 @@ Setting the killswith off or on
 # Patches and Patching for DWM (mainly)
 - `patch < (patch-name)`
 - `make clean install` or `make install`
-- *may need to use sudo to make install
+- may need to use sudo to make install
 
 # Pacman Installing Offline Files (pacman -U)
 - `pacman -U <target>`
@@ -150,7 +150,7 @@ To overide change in application theme and light mode throughout linux DM or WM 
 
 # Whonix
 Start gateway before the desktop.
-Change password on current user `passwd` 
+Change password on current user `passwd`
 
 - `sudo apt-get update`
 - `sudo apt-get upgrade`

@@ -1,29 +1,49 @@
-# bash-linux-commands
-Bash and Linux commands
+# Purpose and Outcome for bash-linux-commands
+Bash and Linux commands written down after using UNIX based systems. These commands below have commands written with the name of the program or function applicable to the command or program. 
+
+I have noted these down to help me remeber some of these commands when using the CLI, as transtioning from GUI based applications becomes hard to remeber every bash command that I need to use. So below I have noted some commands I have sporadically used or noted command arguments that I may forget and can revist this sheet to assist what command to use. 
+
+This sheet will add more commands when coming across new arguments whilst using the CLI for UNIX based machines.
 
 # Chmod Commands for Files
-chmod g=r <filename> [Give permissions of the memebers to read the file but not write and execute]
-chmod a-x <filename> [Removes the execute permission for all users]
-chmod -R o-w <dir-name> [Remove write privelage for users in other users]
-chmod og-rwx <filename> [Remove read, write and execute permission for all users except file owner]
-chmod og= <filename> [The same thing can be also accomplished by using the following form]
-chmod u=rwx,g=r,o= <filename> [Give read, write and execute permsiion to the file's group and no permissions to all other users]
-chmod g+u <filename> [Add the file owner permissions to the permissions that the members of the file's group have]
-chmod o+t <dir-name> [Add a sticky bit to a given directory]
+1. Give permissions of the memebers to read the file but not write and execute: 
+	`chmod g=r <filename>`
+
+2. Removes the execute permission for all users: 
+	`chmod a-x <filename>`
+
+3. Remove write privelage for users in other users:
+	`chmod -R o-w <dir-name>`
+
+4. Remove read, write and execute permission for all users except file owner:
+	`chmod og-rwx <filename>`
+
+5. The same thing can be also accomplished by using the following form:
+	`chmod og= <filename>`
+
+6. Give read, write and execute permsiion to the file's group and no permissions to all other users:
+	`chmod u=rwx,g=r,o= <filename>`
+
+7. Add the file owner permissions to the permissions that the members of the file's group have:
+	`chmod g+u <filename>`
+
+8. Add a sticky bit to a given directory:
+	`chmod o+t <dir-name>`
 
 # cmus Commands
-Basic: 
-	Up Key and Down Key = navigate up and down
-	Left and Right Key = move song foward or back
-	Tab Key = Move into right or left section
-	Keys 1,2,3,4,5,6 = provide different viewing options
-	c Key = pause and play
-	Enter Key = when selected a song, the song will be selected to queue and play
+| Command Type   | Command Description |
+| :---	         | :---		       |
+| Up Key and Down Key |navigate up and down |
+| Left and Right Key |move song foward or back |
+|Tab Key|Move into right or left section|
+|Keys 1,2,3,4,5,6|provide different viewing options|
+|c Key| pause and play|
+|Enter Key|when selected a song, the song will be selected to queue and play|
 
 # DH Commands (Check Hard Drive Space)
-df
-df -h
-df -h /
+	df
+	df -h
+	df -h /
 
 # Git Cloning and Installing
 	git clone <web-url>
@@ -40,46 +60,44 @@ df -h /
 	grub-mkconfig -o /boot/grub/grub.cfg -- rebuild to apply changes of themes
 
 # Keybindings
-xbindkeys_config
+	xbindkeys_config
 
 # MKFS (Make File System(Fat32)) Formating
-mkfs -t vfac /dev/<target>
+	mkfs -t vfac /dev/<target>
 
 # Music Players
-ncmpcpp [Start the Program]
+	ncmpcpp #Start the Program
 
 # Network Manager Terminal for Wireless and Wired Connection
-nmtui
+	nmtui
 
 # NordVPN
 	nordvpn set killswitch off #Setting a status
 	nordvpn set killswitch on
 
-# Patches and Patching
-patch < (patch-name)
-sudo make clean install or sudo make install
+# Patches and Patching for DWM (mainly)
+	patch < (patch-name)
+	sudo make clean install or sudo make install
 
 # Pacman Installing Offline Files (pacman -U)
-sudo pacman -U <target>
+	sudo pacman -U <target>
 
 # Pacman Removing Files
-sudo pacman -R <target>  #Removes the package
-sudo pacman -Rcns <target> #Removes the package and its dependecies
+	sudo pacman -R <target>  #Removes the package
+	sudo pacman -Rcns <target> #Removes the package and its dependecies
 
-pacman -Qdtq #Shows unecassary packages on arch
-sudo pacman -R $(pacman -Qdtq) #Removes all the unesassary packages
+	pacman -Qdtq #Shows unecassary packages on arch
+	sudo pacman -R $(pacman -Qdtq) #Removes all the unesassary packages
 
-pacman -Qqen # package list
-pacman -Qqem # package list AUR
+	pacman -Qqen # package list
+	pacman -Qqem # package list AUR
 
 # Remove Files Commands
-rm <filename> -r	[Force and Remove Folder and File Recurisively]
-rm <filename> -f -r [Force and Remove Folder and File Recursivevly]
-
+	rm <filename> -r #Force and Remove Folder and File Recurisively
+	rm <filename> -f -r #Force and Remove Folder and File Recursivevly
 
 # Sound Commands
-	alsamixer [Shows the Mixer to adjust Volumes]
-
+	alsamixer #Shows the Mixer to adjust Volumes
 
 # Systemctl Commands
 	systemctl enable <service>
@@ -93,27 +111,26 @@ rm <filename> -f -r [Force and Remove Folder and File Recursivevly]
 # Themes
 	lxapperance
 	qt5ct
-  *to Download more themes for arch go to the ArchWiki/Packages and search for icon-themes or gtk-themes
+
+*to Download more themes for arch go to the ArchWiki/Packages and search for icon-themes or gtk-themes
 
 # Uncompressing ZIPS
-unzip <filename>
+	unzip <filename>
 
 # Uncompressing RAR FILES
-unrar x <filename>
+	unrar x <filename>
 
 # Uncompressing TAR or TAR.GZ
-  tar zxvf <filename>
-  -z: uncompress the resulting archive with gzip command 
-  -x: extract to disk from the archive
-  -v: Produce verbose output i.e. show progress and filenames while extracing files
-  -f: Read the archive from the specified file called <filename>
+	tar zxvf <filename>
+	-z: uncompress the resulting archive with gzip command 
+	-x: extract to disk from the archive
+	-v: Produce verbose output i.e. show progress and filenames while extracing files
+	-f: Read the archive from the specified file called <filename>
 
 # Whonix
-  Change Password:
-    passwd
-  
-  Updating: 
-    sudo apt-get update
-    sudo apt-get upgrade
-    sudo apt-get-update-plus dist-upgrade
-  *start gateway before the desktop.
+	#Start gateway before the desktop.
+	passwd #Chane password on current user
+
+	sudo apt-get update
+	sudo apt-get upgrade
+	sudo apt-get-update-plus dist-upgrade

@@ -31,24 +31,24 @@ This sheet will add more commands when coming across new arguments whilst using 
 	`chmod o+t <dir-name>`
 
 # cmus Commands
-| Command Type   | Command Description |
-| :---	         | :---		       |
-| Up Key and Down Key |navigate up and down |
-| Left and Right Key |move song foward or back |
-|Tab Key|Move into right or left section|
-|Keys 1,2,3,4,5,6|provide different viewing options|
-|c Key| pause and play|
-|Enter Key|when selected a song, the song will be selected to queue and play|
+| Command Type   	  | Command Description 										    |
+| :---	         	  | :---		       												|
+| Up Key and Down Key |navigate up and down 											|
+| Left and Right Key  |move song foward or back 										|
+|Tab Key			  |Move into right or left section									|
+|Keys 1,2,3,4,5,6	  |provide different viewing options								|
+|c Key				  | pause and play													|
+|Enter Key			  |when selected a song, the song will be selected to queue and play|
 
 # DH Commands (Check Hard Drive Space)
-	df
-	df -h
-	df -h /
+	`df`
+	`df -h`
+	`df -h /`
 
 # Git Cloning and Installing
-	git clone <web-url>
-	cd <folder-name>
-	sudo make install or sudo make clean install or ./install
+	`git clone <web-url>`
+	`cd <folder-name>`
+	`sudo make install` or `sudo make clean install` or `./install`
 
 # Copy Commands
 	cp <file1> <file2> [Copies and overwrites content from  <file1> and overwrites <file2>]

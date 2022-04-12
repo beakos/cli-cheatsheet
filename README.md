@@ -37,7 +37,7 @@ This sheet will add more commands when coming across new arguments whilst using 
 | Left and Right Key  |move song foward or back 										|
 | Tab Key			  |Move into right or left section									|
 | Keys 1,2,3,4,5,6	  |provide different viewing options								|
-| c Key				  | pause and play													|
+| c Key				  |pause and play													|
 | Enter Key			  |when selected a song, the song will be selected to queue and play|
 
 # DH Commands (Check Hard Drive Space)
@@ -46,12 +46,12 @@ This sheet will add more commands when coming across new arguments whilst using 
 `df -h /`
 
 # Git Cloning and Installing
-	git clone <web-url>
-	cd <folder-name>
-	sudo make install or sudo make clean install or ./install
+- `git clone <web-url>`
+- `cd <folder-name>`
+- `sudo make install` or `sudo make clean install` or `./install`
 
 # Copy Commands
-Copies and overwrites content from  <file1> and overwrites <file2>
+- Copies and overwrites content from  <file1> and overwrites <file2>
 `cp <file1> <file2>` 
 
 # Grub Theme Ajusting Themes and Text in Grub
@@ -71,11 +71,11 @@ Copies and overwrites content from  <file1> and overwrites <file2>
 `mkfs -t vfac /dev/<target>`
 
 # Music Players
-Start the program
+- Start the program
 `ncmpcpp`
 
 # Network Manager Terminal for Wireless and Wired Connection
-Start the program
+- Start the program
 `nmtui`
 
 # NordVPN
@@ -84,30 +84,30 @@ Setting the killswith off or on
 `nordvpn set killswitch on`
 
 # Patches and Patching for DWM (mainly)
-`patch < (patch-name)`
-`make clean install` or `make install`
-*may need to use sudo to make install
+- `patch < (patch-name)`
+- `make clean install` or `make install`
+- *may need to use sudo to make install
 
 # Pacman Installing Offline Files (pacman -U)
-`pacman -U <target>`
+- `pacman -U <target>`
 
 # Removing Files using Pacman
-Remove the installed package
+- Remove the installed package
 `pacman -R <target>`
 
-Removes the installed package and its dependecies
+- Removes the installed package and its dependecies
 `pacman -Rcns <target>`
 
-Shows the unecassary packages on arch
+- Shows the unecassary packages on arch
 `pacman -Qdtq`
 
-Removes all the unesassary packages installed on the system
+- Removes all the unesassary packages installed on the system
 `pacman -R $(pacman -Qdtq)`
 
-List packages installed with pacman
+- List packages installed with pacman
 `pacman -Qqen`
 	
-List packages installed with the AUR package manager
+- List packages installed with the AUR package manager
 `pacman -Qqem`
 
 # Remove Files Commands
@@ -122,25 +122,24 @@ Shows the volume mixer in the terminal to allow ajusting hardware volumes on the
 `alsamixer`
 
 # Systemctl Commands
-`systemctl enable <service>`
-`systemctl start <serivce>`
-`systemctl status <service>`
+- `systemctl enable <service>`
+- `systemctl start <serivce>`
+- `systemctl status <service>`
 
-`systemctl enable --now <service>`
-`systemctl start --now <serivce>`
-`systemctl status --now <service>`
+- `systemctl enable --now <service>`
+- `systemctl start --now <serivce>`
+- `systemctl status --now <service>`
 
 # Themes
 To overide change in application theme and light mode throughout linux DM or WM use;
-`lxapperance` or and
-`qt5ct`
-*to Download more themes for arch go to the ArchWiki/Packages and search for icon-themes or gtk-themes
+- `lxapperance` or and `qt5ct`
+- *to Download more themes for arch go to the ArchWiki/Packages and search for icon-themes or gtk-themes
 
 # Uncompressing ZIPS
-`unzip <filename>`
+- `unzip <filename>`
 
 # Uncompressing RAR FILES
-`unrar x <filename>`
+- `unrar x <filename>`
 
 # Uncompressing TAR or TAR.GZ
 - Default tar decompression command `tar zxvf <filename>`
@@ -153,6 +152,6 @@ To overide change in application theme and light mode throughout linux DM or WM 
 Start gateway before the desktop.
 Change password on current user `passwd` 
 
-`sudo apt-get update`
-`sudo apt-get upgrade`
-`sudo apt-get-update-plus dist-upgrade`
+- `sudo apt-get update`
+- `sudo apt-get upgrade`
+- `sudo apt-get-update-plus dist-upgrade`

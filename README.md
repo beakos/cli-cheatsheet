@@ -5,6 +5,11 @@ I have noted these down to help me remember some of these commands when using th
 
 I will be adding more to this cheatsheet. Commands used are at random times. Any requests please let me know.
 
+# Current Status of Documents
+This repository is currently under research, development and review. These files also ***should not*** be made public until further notice by the owner. If you are collaborating in development, please take careful consideration in copying other people's work, I do not condone copying others work.
+
+We will work through all our research and confirm to release in the future. This is dependent on our listed requirements as per listed above.
+
 ## Short-term Goals
 - Research and note down most common commands used for CLI programs
 - Group and collate commands. Arguments with more than a certain amount of 

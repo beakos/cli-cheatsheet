@@ -1,10 +1,3 @@
-# Purpose and Outcome for bash-linux-commands
-Bash and Linux commands written down after using UNIX based systems. These commands below have commands written with the name of the program or function applicable to the command or program. 
-
-I have noted these down to help me remeber some of these commands when using the CLI, as transtioning from GUI based applications becomes hard to remeber every bash command that I need to use. So below I have noted some commands I have sporadically used or noted command arguments that I may forget and can revist this sheet to assist what command to use. 
-
-This sheet will add more commands when coming across new arguments whilst using the CLI for UNIX based machines.
-
 # Chmod Commands for Files
 1. Give permissions of the memebers to read the file but not write and execute: 
 `chmod g=r <filename>`

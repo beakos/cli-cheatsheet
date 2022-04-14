@@ -1,8 +1,3 @@
-# Current Status of Document
-This document is currently under research, development and review. This document also ***should not*** be made public until further notice by the owner. If you are collaborating in development, please take careful consideration in copying other people's work, I do not condone copying others work.
-
-We will work through all our research and confirm to release in the future. This is dependent on our listed requirements as per listed above.
-
 ## Basic Configuration Commands
 A set of basic configuration commands listed below.
 

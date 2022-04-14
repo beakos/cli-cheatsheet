@@ -123,6 +123,9 @@ Shows the volume mixer in the terminal to allow ajusting hardware volumes on the
 - `systemctl start --now <serivce>`
 - `systemctl status --now <service>`
 
+# Terminal Theme Edit
+Change settings in `.Xresources` in the users home folder; i.e. `/home/<username>` on linux.
+
 # Themes
 To overide change in application theme and light mode throughout linux DM or WM use;
 - `lxapperance` or and `qt5ct`

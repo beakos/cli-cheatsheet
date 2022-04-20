@@ -1,3 +1,6 @@
+# Cat Command
+`cat` lets you view the file in the CLI e.g. `cat file.txt`
+
 # Chmod Commands for Files
 1. Give permissions of the memebers to read the file but not write and execute: 
 `chmod g=r <filename>`
@@ -40,6 +43,10 @@
 
 # Get Process ID
 `ps` in terminal will list all active process ID's
+
+e.g. using `ps` can allow a user to kill processes that are unwanted, process ID's can be found using the `ps` command.
+
+For example after finding a PID, you can use `kill 23`. This means to kill the PID number 23. Once the command has been entered the PID will be stopped.
 
 # Git Cloning and Installing
 - `git clone <web-url>`
@@ -107,11 +114,13 @@ Setting the killswith off or on
 `pacman -Qqem`
 
 # Remove Files Commands
-Force and Remove Folder and File Recurisively
-`rm <filename> -r`
+`rm` Removes a file (this does not remove folders unless using force option)
 
-Force and Remove Folder and File Recursivevly
-`rm <filename> -f -r`
+`rm *` Removes all files in the diretory
+
+`rm <filename> -r` Remove folder and file recurisively
+
+`rm <filename> -f -r` Force and remove folder and file recursivevly
 
 # Sound Commands
 Shows the volume mixer in the terminal to allow ajusting hardware volumes on the system

@@ -38,6 +38,9 @@
 - `df -h`
 - `df -h /`
 
+# Get Process ID
+`ps` in terminal will list all active process ID's
+
 # Git Cloning and Installing
 - `git clone <web-url>`
 - `cd <folder-name>`

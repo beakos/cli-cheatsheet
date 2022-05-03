@@ -8,3 +8,6 @@ Prints information in HTML format to determine the battery life cycle etc.
 # Install programs with powershell
 `wget` and add the install argument; program, script or link to download
 
+# Install pip programs
+`py -m pip install <package-name>`
+`py -m pip <command> <args>`

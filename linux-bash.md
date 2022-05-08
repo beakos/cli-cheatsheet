@@ -112,6 +112,9 @@ Setting the killswith off or on
 	
 - List packages installed with the AUR package manager
 `pacman -Qqem`
+	
+# Pacman Update Integirty Keys for Updating and Upgrading Packages
+`pacman -S archlinux-keyring`
 
 # Remove Files Commands
 `rm` Removes a file (this does not remove folders unless using force option)

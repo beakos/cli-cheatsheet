@@ -1,3 +1,8 @@
+# Chris Titus Script
+`iwr -useb https://christitus.com/win | iex`
+A script that has many powershell script commands by Chris Titus. 
+`iwr -useb https://git.io/JJ8R4 | iex` This script leads to the old script GUI also made by Chris Titus. 
+
 # CMD & powershell command list
 This is a list of basic script commands for CMD & powershell.
 

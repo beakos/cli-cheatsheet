@@ -94,7 +94,7 @@ Setting the killswith off or on
 # Pacman Installing Offline Files (pacman -U)
 - `pacman -U <target>`
 
-# Removing Files using Pacman
+# Removing & Query Files using Pacman
 - Remove the installed package
 `pacman -R <target>`
 
@@ -112,6 +112,14 @@ Setting the killswith off or on
 	
 - List packages installed with the AUR package manager
 `pacman -Qqem`
+
+- Generate a list of installed pacman packages
+`pacman -Q`
+	
+- Generate a list of installed pacman packages and save the list in a text file
+`pacman -Q > my_arch_packages.txt`
+	
+- 
 	
 # Pacman Update Integirty Keys for Updating and Upgrading Packages
 `pacman -S archlinux-keyring`

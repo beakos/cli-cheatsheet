@@ -1,8 +1,3 @@
-# Chris Titus Script
-`iwr -useb https://christitus.com/win | iex`
-A script that has many powershell script commands by Chris Titus. 
-`iwr -useb https://git.io/JJ8R4 | iex` This script leads to the old script GUI also made by Chris Titus. 
-
 # CMD & powershell command list
 This is a list of basic script commands for CMD & powershell.
 
@@ -16,3 +11,15 @@ Prints information in HTML format to determine the battery life cycle etc.
 # Install pip programs
 `py -m pip install <package-name>`
 `py -m pip <command> <args>`
+
+# Powershell Scripts
+Run the following scripts in administrator mode Powershell
+
+## Chris Titus Script
+`iwr -useb https://christitus.com/win | iex`
+A script that has many powershell script commands by Chris Titus. 
+`iwr -useb https://git.io/JJ8R4 | iex` This script leads to the old script GUI also made by Chris Titus.
+
+## Windows10 Debloter Reddit Script 
+- Step 1: Run `PS`
+- Step 2: Run `iwr -useb https://git.io/debloat|iex`

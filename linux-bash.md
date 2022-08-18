@@ -137,6 +137,10 @@ Setting the killswith off or on
 Shows the volume mixer in the terminal to allow ajusting hardware volumes on the system
 `alsamixer`
 
+# SSH Commands
+- To start the SSH service `systemctl start sshd.service` (you will probably need to use `sudo`
+- To login from another machine `ssh <username>@<ip-address>`
+
 # Systemctl Commands
 - `systemctl enable <service>`
 - `systemctl start <serivce>`

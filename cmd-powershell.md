@@ -1,6 +1,15 @@
 # CMD & powershell command list
 This is a list of basic script commands for CMD & powershell.
 
+# CMD Cleanup Commands
+- `Dism /Online /Cleanup-Image /CheckHealth`
+
+- `Dism /Online /Cleanup-Image /ScanHealth`
+
+- `Dism /Online /Cleanup-Image /RestoreHealth`
+
+- `sfc /SCANNOW` Checks for integrity violations
+
 # Fetch the battery report for Windows Systems (CMD)
 Prints information in HTML format to determine the battery life cycle etc. 
 `powercfg \batteryreport`

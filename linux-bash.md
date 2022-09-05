@@ -69,6 +69,12 @@ For example after finding a PID, you can use `kill 23`. This means to kill the P
 
 # Keybindings
 `xbindkeys_config`
+	
+# Locales Fix in any distro
+- `#!/bin/bash`
+- `echo "LC_ALL=en_US.UTF-8" | sudo tee -a /etc/environment`
+- `echo "en_US.UTF-8 UTF-8" | sudo tee -a /etc/locale.gen`
+- `echo "LANG=en_US.UTF-8" | sudo tee -a /etc/locale.conf`
 
 # MKFS (Make File System(Fat32)) Formating
 `mkfs -t vfac /dev/<target>`

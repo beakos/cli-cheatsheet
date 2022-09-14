@@ -177,6 +177,11 @@ To overide change in application theme and light mode throughout linux DM or WM 
 - Produce verbose output i.e. show progress and filenames while extracing files `-v:` 
 - Read the archive from the specified file called <filename> `-f:` 
 
+# Updating Packages on Arch, AUR and Snap
+- Upgrade all pacman packages and system full-upgrade `pacman -Syu` or `pacman -Syyu`
+- Upgrade all yay packages and system full-upgrade `yay -Syu` or `yay -Syyu`
+- Upgrade all snap packages `snap refresh`
+
 # Whonix
 Start gateway before the desktop.
 Change password on current user `passwd`

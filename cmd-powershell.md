@@ -32,3 +32,6 @@ A script that has many powershell script commands by Chris Titus.
 ## Windows10 Debloter Reddit Script 
 - Step 1: Run `PS`
 - Step 2: Run `iwr -useb https://git.io/debloat|iex`
+
+# Winget Install
+`winget <url>` and winget will install target source. If winget is not installed, Powershell should try to install automatically.

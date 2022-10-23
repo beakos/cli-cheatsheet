@@ -100,6 +100,10 @@ Setting the killswith off or on
 # Pacman Installing Offline Files (pacman -U)
 - `pacman -U <target>`
 
+# Query All PC Components
+- `lspci -nn`
+- Gets all the information on the parts connected to the PC.
+
 # Removing & Query Files using Pacman
 - Remove the installed package
 `pacman -R <target>`

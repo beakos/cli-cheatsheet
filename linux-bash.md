@@ -102,6 +102,7 @@ Setting the killswith off or on
 
 # Query All PC Components
 - `lspci -nn`
+- `lspci -nn | grep "INTEL"` // gets information about INTEL only devices
 - Gets all the information on the parts connected to the PC.
 
 # Removing & Query Files using Pacman

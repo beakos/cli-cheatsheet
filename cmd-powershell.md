@@ -20,6 +20,7 @@ This is a list of basic script commands for CMD & powershell.
 - `format`
 - `assign`
 - `exit`
+https://askubuntu.com/questions/921046/how-to-remove-ubuntu-from-boot-menu-after-deleting-ubuntu-partition-in-windows
 
 # Fetch the battery report for Windows Systems (CMD)
 Prints information in HTML format to determine the battery life cycle etc. 

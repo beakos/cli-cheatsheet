@@ -10,6 +10,17 @@ This is a list of basic script commands for CMD & powershell.
 
 - `sfc /SCANNOW` Checks for integrity violations
 
+# DISKPART Commands
+- `list disk` // lists all the drives
+- `select disk` // selects the target disk (you must enter the number after sleect disk)
+- `clean`
+- `create partition`
+- `select partition`
+- `active`
+- `format`
+- `assign`
+- `exit`
+
 # Fetch the battery report for Windows Systems (CMD)
 Prints information in HTML format to determine the battery life cycle etc. 
 `powercfg \batteryreport`

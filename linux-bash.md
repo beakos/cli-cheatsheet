@@ -64,7 +64,7 @@ For example after finding a PID, you can use `kill 23`. This means to kill the P
 2. To store themes in this folder
 `/boot/grub/themes`
 	
-3. To rebuild to apply changes of themes	
+3. Rebuild GRUB to apply changes of themes or any other changes made to the config
 `grub-mkconfig -o /boot/grub/grub.cfg`
 
 # Keybindings

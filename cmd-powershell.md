@@ -54,3 +54,6 @@ A script that has many powershell script commands by Chris Titus.
 # Winget Upgrading Packages
 `winget list` lists all packages
 `winget upgrade --all` upgrades all packages
+`winget --help` lists all usable commands and queries
+`winget upgrade --include unknown` upgrades all packages without warning
+`winget upgrade --force` upgrades all packages without checking hashes or avoiding warnings

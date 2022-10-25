@@ -10,6 +10,9 @@ This is a list of basic script commands for CMD & powershell.
 
 - `sfc /SCANNOW` Checks for integrity violations
 
+# CMD Check History
+Press the `F7` key on the keyboard. Restarting the session will lose all commands used in session, all CMD sessions are volitile.
+
 # DISKPART Commands
 - `list disk` // lists all the drives
 - `select disk` // selects the target disk (you must enter the number after sleect disk)
@@ -47,3 +50,7 @@ A script that has many powershell script commands by Chris Titus.
 
 # Winget Install
 `winget <url>` and winget will install target source. If winget is not installed, Powershell should try to install automatically.
+
+# Winget Upgrading Packages
+`winget list` lists all packages
+`winget upgrade --all` upgrades all packages

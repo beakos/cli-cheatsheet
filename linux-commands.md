@@ -161,6 +161,10 @@ Shows the volume mixer in the terminal to allow ajusting hardware volumes on the
 - `systemctl start --now <serivce>`
 - `systemctl status --now <service>`
 
+# Tarbell [tar.gz] Extraction
+- `./configure` or `./configure --enable-release`
+- `make`
+
 # Terminal Theme Edit
 Change settings in `.Xresources` in the users home folder; i.e. `/home/<username>` on linux.
 

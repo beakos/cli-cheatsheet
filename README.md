@@ -3,7 +3,7 @@ Lines of commands (bash, Linux, Command Prompt, Powershell, zsh, etc) written do
 
 I will be adding more to this cheatsheet as I go and also sanitise notetaking format.
 
-Markdown files present in markdown will slowly be intergrated into webpage.
+Commands present in markdown files will slowly be intergrated into webpage.
 
 # Current Status of Documents
 This repository is currently under research, development and review.

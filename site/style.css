@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #404040;
+}
+header {
+    background-color: #202020;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+body {
+    padding: 0.5em;
+
+}
+title-head{
+    color: white;
+    text-align: center;
+    margin-bottom: 1em;
+}
+section-1 {
+    padding: 1em;
+}
+section-2 {
+    padding: 1em;
+}
+.main-commands {
+    background-color: #202020;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #404040;
+}
+.command-title {
+    font-weight: bold;
+    color: #bababa;
+}
+.command-description {
+    color: #cccccc;
+}
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+}
